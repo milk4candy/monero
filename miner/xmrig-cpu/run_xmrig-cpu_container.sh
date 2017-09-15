@@ -1,3 +1,5 @@
+#! /bin/bash
+
 docker run --name xmrig-cpu -dt --restart unless-stopped --read-only bitnn/alpine-xmrig \
     -o xmr-asia1.nanopool.org:14444 \
     --donate-level=1 \
