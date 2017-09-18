@@ -2,4 +2,5 @@
 
 cn='xmrig-cpu'
 
-docker stop $cn & docker container prune -f
+docker stop $cn
+docker container prune -f
