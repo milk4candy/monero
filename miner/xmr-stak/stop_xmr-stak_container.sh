@@ -1,6 +1,6 @@
 #! /bin/bash
 
-cn='xmrig-nvidia'
+cn='xmr-stak'
 
 docker stop $cn
 docker container prune -f
